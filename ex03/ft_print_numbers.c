@@ -6,7 +6,7 @@
 /*   By: aosman-m@student.42kocaeli.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/01 15:15:11 by aosman-m          #+#    #+#             */
-/*   Updated: 2026/09/01 15:21:13 by aosman-m         ###   ########.fr       */
+/*   Updated: 2026/09/01 16:06:58 by aosman-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,12 @@ void	ft_print_number(void);
 
 void	ft_print_number(void)
 {
-	int	d;
+	char	d;
 
-	d = 0;
-	while (d >= 9)
+	d = '0';
+	while (d <= '9')
 	{
 		write(1, &d, 1);
+		d++;
 	}
 }

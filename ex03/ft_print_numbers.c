@@ -6,15 +6,15 @@
 /*   By: aosman-m@student.42kocaeli.com.tr          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/01 15:15:11 by aosman-m          #+#    #+#             */
-/*   Updated: 2026/09/01 16:06:58 by aosman-m         ###   ########.fr       */
+/*   Updated: 2026/09/01 16:17:01 by aosman-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_number(void);
+void	ft_print_numbers(void);
 
-void	ft_print_number(void)
+void	ft_print_numbers(void)
 {
 	char	d;
 
